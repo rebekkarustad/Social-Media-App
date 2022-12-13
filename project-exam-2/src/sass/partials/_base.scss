@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Chivo:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap");
+
+$color-primary: #a75b43;
+$color-secondary: #f4e7e3;
+$color-links: #ca9a5a;
+$color-text: #000000;
+$color-light: #ffffff;
+$color-shadow: rgba(0, 0, 0, 0.04);
+
+$color-success: #dbe9cf;
+$color-warning: #f9edcd;
+$color-error: #f4c0c0;
+
+$font-header: "Playfair Display", serif;
+$font-text: "Chivo", sans-serif;
+
+$breakpoint-sml: "576px";
+$breakpoint-mdm: "768px";
+$breakpoint-lrg: "992px";

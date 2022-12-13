@@ -1,0 +1,59 @@
+.container {
+  max-width: 1400px;
+}
+
+.navbar {
+  background-color: $color-light !important;
+}
+
+.navbar-nav {
+  a,
+  a:hover {
+    color: $color-primary;
+    font-size: 1.2rem;
+  }
+}
+
+.navbar-toggler {
+  border: 1px solid $color-primary;
+}
+
+.bi-list {
+  color: $color-primary;
+  font-size: 2rem;
+}
+
+.navbar-collapse {
+  @media (max-width: $breakpoint-mdm) {
+    margin-top: 15px;
+  }
+}
+
+.navbar-expand-md {
+  .navbar-nav {
+    @media (min-width: $breakpoint-mdm) {
+      gap: 20px;
+    }
+  }
+}
+
+.logo {
+  width: 350px;
+  @media (max-width: 480px) {
+    display: none;
+    width: 0px;
+  }
+}
+.logo-mini {
+  height: 60px;
+  display: none;
+  @media (max-width: 480px) {
+    display: block;
+  }
+}
+
+.navbar-expand-md {
+  .navbar-collapse {
+    padding-top: 6px;
+  }
+}

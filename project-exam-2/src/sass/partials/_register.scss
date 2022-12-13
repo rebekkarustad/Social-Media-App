@@ -1,0 +1,44 @@
+// Form
+.register__container {
+  max-height: 850px;
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  gap: 30px;
+  background-color: $color-light;
+  border-radius: 30px;
+  position: absolute;
+  top: 20px;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  margin: auto;
+  h2 {
+    color: $color-text;
+  }
+  @media (max-width: $breakpoint-lrg) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.form__container {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  background-color: $color-light;
+  border-radius: 20px;
+}
+
+//Thank you
+.register__thanks--container {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+}
+.register__thanks--text {
+  margin-bottom: 50px;
+}

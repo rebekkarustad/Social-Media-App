@@ -1,0 +1,55 @@
+.comment__container {
+  display: flex;
+  margin-bottom: 28px;
+  @media (max-width: $breakpoint-sml) {
+    flex-direction: column;
+  }
+}
+
+.comment--image {
+  margin-right: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.comment--right {
+  width: 100%;
+}
+
+.comment--content {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.1rem;
+}
+
+.comment--text {
+  margin-top: 10px;
+}
+
+.comment--author {
+  margin-right: 8px;
+  font-weight: 500;
+}
+
+.comment--date {
+  font-size: 0.8rem;
+}
+
+.comment--action {
+  cursor: pointer;
+  margin-top: 5px;
+  color: $color-primary;
+  text-decoration: underline;
+  font-size: 0.8rem;
+}
+
+.comment--action:hover {
+  text-decoration: underline;
+}
+
+.comment--replies {
+  margin-top: 20px;
+  @media (max-width: $breakpoint-sml) {
+    padding-left: 40px;
+  }
+}
