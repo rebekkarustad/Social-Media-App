@@ -1,39 +1,68 @@
 # Your project title
 
-![image](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
+![image](https://starlit-donut-baff3e.netlify.app/images/Project-exam.png)
 
-A simple overview of the use/purpose of the project.
+In our last project exam, the assignment was to create a front end for an existing Social Media company. Some essential features had to be included, but design and user experience were not specified. Noroff gave us an API that we would work with to build a modern front-end social media application.
 
 ## Description
 
-Add a more detailed description of what your project entails and set out to do.
+In our last project we were to take all the skills we had learend over the last two years and make an extensive project to show our skills.
 
-You can add some bullet points if you'd like to:
+We were to make a front end for an exisiting social media company and make a brand new front end for their application. There was a list of required features, but the design and user experience was not spesified.
 
-- List item 1
-- List item 2
-- List item 3
+The API used in this project can [be found here](https://noroff-api-docs.netlify.app/)
+
+The most inportant requirements we had to follow was this:
+
+1. A user with a `stud.noroff.no` email may register
+2. A registered user may login
+3. A registered user may update their avatar and banner
+4. A registered user may logout
+5. A registered user may view a list of `Posts`
+6. A registered user may view a list of `Profiles`
+7. A registered user may view a single `Post` by `id`
+8. A registered user may view a single `Profile` by `name`
+9. A registered user may create a `Post`
+10. A registered user may update a `Post` they own
+11. A registered user may delete a `Post` they own
+12. A registered user may create a `Comment` on any `Post`
+13. A registered user may `react` to any `Post` with an emoji
+14. A registered user may `follow` and `unfollow` another `Profile`
+
+All of these requirements was fullfilled in the final product.
 
 ## Built With
 
 You can list a the tech stack that you've used over here
 
 - [React.js](https://reactjs.org/)
-- [Bootstrap](https://getbootstrap.com)
+- [React Bootstrap](https://react-bootstrap.github.io/)
+- [FontAwesome](https://fontawesome.com/)
+- [React Hook Form](https://react-hook-form.com/)
+- [Axios](https://axios-http.com/docs/intro)
+- [Emoji Picker React](https://github.com/ealush/emoji-picker-react)
+- [React Moment](https://github.com/headzoo/react-moment)
+- [Node Sass](https://github.com/sass/node-sass)
+- [React Router Dom](https://reactrouter.com/en/main)
+- [Yup](https://github.com/jquense/yup)
 
 ## Getting Started
 
 ### Installing
 
-This is where you list how to get the project started. It typically just includes telling a person to clone the repo and then to install the dependencies e.g.
-
 1. Clone the repo:
 
 ```bash
-git clone git@github.com:NoroffFEU/portfolio-1-example.git
+git clone git@github.com:rebekkarustad/project-exam-2022
 ```
 
-2. Install the dependencies:
+2. Change directory
+
+```
+cd js-frameworks-course-assignment
+```
+
+3. Install the dependencies:
 
 ```
 npm install
@@ -41,30 +70,13 @@ npm install
 
 ### Running
 
-Here is where you detail how to run the app. It typically involves the commands you'd need to run to start the project e.g.
-
 To run the app, run the following commands:
 
 ```bash
 npm run start
 ```
 
-## Contributing
-
-Here you can detail any information you want to provide regarding contributing to the project. For big projects you will usually have a separate `CONTRIBUTING.md` and link to it, but for smaller projects you can simply include instructions here. These instructions can simply detail the process you want a person to take, such as to make sure to open a pull request so code can be reviewed.
-
 ## Contact
 
-This is where you can leave your social links for people to contact you, such as a LinkedIn profile or Twitter link e.g.
-
-[My Twitter page](www.twitter.com)
-
-[My LinkedIn page](www.linkedin.com)
-
-## License
-
-You can link to your license file here if you're using one, or mention what license the codebase falls under. If you're unsure then you can simply delete this section.
-
-## Acknowledgments
-
-This is where you can add any acknowledgements if you'd like, such as to people who have helped you or any code snippets you'd like to mention. You can delete this section if you don't have any acknowledgements to make.
+- [My LinkedIn page](https://www.linkedin.com/in/rebekka-rustad-96ab5389/)
+- [My Instagram page](https://www.instagram.com/rrustad/)
