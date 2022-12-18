@@ -1,18 +1,18 @@
 # Your project title
 
-![image](https://starlit-donut-baff3e.netlify.app/images/Project-exam.png)
+![image](https://rebekkarustad.netlify.app/images/Project-exam.png)
 
-In our last project exam, the assignment was to create a front end for an existing Social Media company. Some essential features had to be included, but design and user experience were not specified. Noroff gave us an API that we would work with to build a modern front-end social media application.
+In our last project exam, the assignment was to create a front end for an existing Social Media company. Some essential features had to be included, but the design and user experience were not specified. Noroff gave us an API that we would work with to build a modern front-end social media application.
 
 ## Description
 
-In our last project we were to take all the skills we had learend over the last two years and make an extensive project to show our skills.
+In our last project, we were to take all the skills we had learned in the previous two years and do an extensive project to show our skills.
 
-We were to make a front end for an exisiting social media company and make a brand new front end for their application. There was a list of required features, but the design and user experience was not spesified.
+We were to make a front end for an existing social media company and a brand new front end for their application. There was a list of required features, but the design and user experience needed to be specified.
 
 The API used in this project can [be found here](https://noroff-api-docs.netlify.app/)
 
-The most inportant requirements we had to follow was this:
+The most important requirements we had to follow were this:
 
 1. A user with a `stud.noroff.no` email may register
 2. A registered user may login
@@ -29,12 +29,9 @@ The most inportant requirements we had to follow was this:
 13. A registered user may `react` to any `Post` with an emoji
 14. A registered user may `follow` and `unfollow` another `Profile`
 
-All of these requirements was fullfilled in the final product.
+All of these requirements were fulfilled in the final product.
 
 ## Built With
-
-You can list a the tech stack that you've used over here
-
 - [React.js](https://reactjs.org/)
 - [React Bootstrap](https://react-bootstrap.github.io/)
 - [FontAwesome](https://fontawesome.com/)
@@ -56,7 +53,7 @@ You can list a the tech stack that you've used over here
 git clone git@github.com:rebekkarustad/project-exam-2022
 ```
 
-2. Change directory
+2. Change the directory
 
 ```
 cd js-frameworks-course-assignment
