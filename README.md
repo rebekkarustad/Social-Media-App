@@ -1,4 +1,4 @@
-# Your project title
+# Sosial Media App - Project Exam 2022
 
 ![image](https://rebekkarustad.netlify.app/images/Project-exam.png)
 
